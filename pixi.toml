@@ -1,0 +1,20 @@
+[workspace]
+authors = ["Ole Bialas <ole.bialas@posteo.de>"]
+channels = ["conda-forge"]
+name = "EEG-Course"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.12.*"
+mne = ">=1.11.0,<2"
+numpy = ">=2.4.2,<3"
+ipykernel = ">=7.2.0,<8"
+pyvistaqt = ">=0.11.3,<0.12"
+autoreject = ">=0.4.3,<0.5"
+mne-connectivity = ">=0.7.0,<0.8"
+
+[pypi-dependencies]
+mtrf = ">=2.1.2, <3"

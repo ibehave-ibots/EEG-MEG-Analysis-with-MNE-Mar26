@@ -1,0 +1,19 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+# content
+01_solutions*
+02_*
+02_solutions*
+03_*
+03_solutions*
+04_*
+04_solutions*
+
+#data
+*.fif
+
+#tooling
+.vscode
