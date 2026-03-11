@@ -2,7 +2,7 @@
 authors = ["Ole Bialas <ole.bialas@posteo.de>"]
 channels = ["conda-forge"]
 name = "EEG-Course"
-platforms = ["win-64"]
+platforms = ["win-64", "osx-arm64", "linux-64"]
 version = "0.1.0"
 
 [tasks]
