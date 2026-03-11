@@ -34,8 +34,16 @@ This repo contains the materials for a 3-day online workshop on analyzing EEG an
 ### Installation
 
 1. Install [pixi](https://pixi.prefix.dev/latest/installation/) and [git](https://git-scm.com/install/)
-2. Clone this repository: `git clone https://github.com/ibehave-ibots/EEG-MEG-Analysis-with-MNE-Mar26.git`
-3. Move to the cloned directory (`cd EEG-MEG-Analysis-with-MNE-Mar26`) and run `pixi install`
+2. Clone this repository:
+```
+git clone https://github.com/ibehave-ibots/EEG-MEG-Analysis-with-MNE-Mar26.git
+```
+3. Move to the cloned directory and install the environment:
+```
+cd EEG-MEG-Analysis-with-MNE-Mar26
+pixi install
+```
+
 
 ### Selecting the Kernel
 
