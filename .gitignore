@@ -7,13 +7,11 @@
 *.html
 
 # content
-04_solutions*
-05_solutions*
-06_solutions*
-07_*
-07_solutions*
-08_*
-08_solutions*
+09_solutions*
+10_solutions*
+11_*
+11_solutions*
+12_*
 
 #data
 *.fif
