@@ -3,6 +3,9 @@
 .pixi
 *.egg-info
 
+#slides
+*.html
+
 # content
 04_solutions*
 05_solutions*

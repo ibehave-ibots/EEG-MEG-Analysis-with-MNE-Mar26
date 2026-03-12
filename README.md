@@ -50,3 +50,13 @@ pixi install
 When you open a notebook in VSCode click "Select Kernel" > "Python Environments" and select the environment called **default** (Python Version 3.12.13).
 
 If this environment does not show up do `pixi run install-kernel` and then click "Select Kernel" > "Jupyter Kernel" and select **ibots-eeg** (you may need to refresh the list so it shows up)
+
+### Slides
+
+Some folders contain a `slides.ipynb` file. These can be used as regular Jupyter notebooks or viewed as slides by running
+
+```
+pixi run jupyter nbconvert slides.ipynb --to slides --no-input --post serve
+```
+
+and viewing the output HTML file in the browser.
