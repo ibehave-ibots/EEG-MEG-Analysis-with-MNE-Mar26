@@ -7,11 +7,6 @@
 *.html
 
 # content
-09_solutions*
-10_solutions*
-11_*
-11_solutions*
-12_*
 
 #data
 *.fif
